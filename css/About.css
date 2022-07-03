@@ -1,0 +1,123 @@
+
+
+
+.row {
+  margin-left: 15px;
+  margin-right: 15px;
+  display: flex;
+  background-color: rgb(50, 205, 76);
+  
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 0.01em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0.01px;
+  font-family: Circular, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: white;
+  background-color: rgb(25, 214, 73);
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+a.showOnFocus {
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  white-space: nowrap;
+  display: block;
+}
+
+h1, .h1{
+  text-align:left;
+}
+
+a:link, a:hover, a:focus, a:active {
+  text-decoration: underline;
+}
+
+a {
+  color:blue;
+  text-decoration: none;
+}
+
+.About-title {
+  
+  font-size: 3.5em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.01em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  padding-left: 0.5em;
+}
+
+ 
+
+h2, .h2 {
+  font-size: 32px;
+  font-weight: 900;
+  letter-spacing: -0.015em;
+  line-height: 1.3;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  font-family: Circular, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: white;
+  background-color:transparent;
+
+}
+
+div {
+  display: block;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.col-md-7, .col-md-5, .col-md-6{
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border:1px solid transparent;
+  float: left;
+  width: 50%;
+}
+
+address {
+  font-family: Circular, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  display: block;
+  font-style: normal;
+  margin-bottom: 24px;
+  line-height: 1.5;
+}
+
+*{
+  box-sizing: border-box;
+}
+.col-sm-6{
+  border: transparent;
+  float: right;
+  width: 50%;
+}
+
+h1, h2, h3 .h1, .h2, .h3 {
+  margin: 0.5em 0 0.25em;
+}
+.office{
+  color: white;
+}
+
